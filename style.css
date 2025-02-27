@@ -1,0 +1,23 @@
+
+p{
+    font-family:   "Montserrat", sans-serif;
+}
+
+h1, h2, h3, h4{
+    font-family: "Sigmar", sans-serif;
+    color: blue;
+}
+
+.articolo{
+    background-color: aqua;
+    }
+
+.articolo:hover{
+background-color: deeppink;
+}
+
+.articolo_2{
+    background-image: url(https://picsum.photos/2000);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
