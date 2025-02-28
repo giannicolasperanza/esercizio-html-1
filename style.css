@@ -1,23 +1,105 @@
+*{
+    font-family:   "Montserrat", sans-serif;
+}
 
+body{
+    padding: 0%;
+}
 p{
     font-family:   "Montserrat", sans-serif;
 }
 
 h1, h2, h3, h4{
-    font-family: "Sigmar", sans-serif;
-    color: blue;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(11, 11, 51);
 }
 
-.articolo{
-    background-color: aqua;
-    }
-
-.articolo:hover{
-background-color: deeppink;
+h3{
+    font-size: 15px;
 }
 
-.articolo_2{
-    background-image: url(https://picsum.photos/2000);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+nav {
+    width: auto;
+    height: 80px;
+    border-bottom: 1px solid;
+    border-color: black;
+    padding-bottom: 10px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+nav a:hover{
+    border-bottom: 1px solid;
+}
+
+a.logolink:hover{
+    border-bottom: none;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+nav a{
+    color: rgb(0, 0, 0);
+    font-family:"Open Sans", sans-serif;
+    text-decoration: none;
+}
+
+button{
+    background-color: yellow;
+    color: black;
+    height: 30px;
+    text-decoration: none;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+.lista_articoli{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+article{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+article img{
+    width: 100%;
+}
+
+.articolocst{
+    
+    width: 60%;
+    display:flex;
+    justify-content: start;
+    align-items: start;
+}
+
+
+.artpiucons{
+    display: flex;
+    justify-content:space-between;
+    
+    
+}
+
+.artconsigliato{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgba(241, 241, 32, 0.325);
+    height: fit-content;
 }
