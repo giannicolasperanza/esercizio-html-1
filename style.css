@@ -57,6 +57,7 @@ button{
     text-decoration: none;
     font-weight:bold;
     cursor: pointer;
+    border-radius: 10%;
 }
 
 .lista_articoli{
@@ -89,9 +90,7 @@ article img{
 
 .artpiucons{
     display: flex;
-    justify-content:space-between;
-    
-    
+    justify-content:space-between;    
 }
 
 .artconsigliato{
@@ -102,4 +101,60 @@ article img{
     align-items: center;
     background-color: rgba(241, 241, 32, 0.325);
     height: fit-content;
+}
+
+.portasu{
+   position: fixed;
+   bottom: 5px;
+   right: 10px;
+   background-color: yellow;
+   width: 60px;
+   height: 60px;
+   border-radius: 15%;
+   
+}
+
+.portasu:hover{
+    width: 90px;
+    height: 90px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 900px){
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 8px;
+}
+
+.logolink img{
+    width: 50px;
+}
+
+nav a button{
+    height: 20px;
+    width: 50px;
+    font-size: 5px;
+}
+
+.lista_articoli{
+    display: flex;
+    flex-direction: column;
+}
+
+.artpiucons{
+    display: flex;
+    flex-direction: column;
+}
+
+.articolocst{
+    width: 100%;
+}
+
+.artconsigliato{
+    width: 100%;
+}
 }
